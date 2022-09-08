@@ -5,7 +5,7 @@ namespace Repository;
 
 public class RepositoryWrapper : IRepositoryWrapper
 {
-    private RepositoryContext _repositoryContext;
+    private readonly RepositoryContext _repositoryContext;
     private IAddressRepository _address;
     private IBookRepository _book;
     private IBorrowmentRepository _borrowment;
